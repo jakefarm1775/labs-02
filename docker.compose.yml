@@ -1,0 +1,9 @@
+services:
+  lab-02:
+    image: jakefarm1775/hwa1:test
+    container_name: Lab-02
+    restart: always
+    ports:
+      - "80:80"
+    volumes:
+      - /home/appserver/Labs-o2
